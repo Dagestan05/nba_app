@@ -23,3 +23,5 @@ yarn-error.log*
 package-lock.json
 
 /public/images
+#fake API db
+db.json
