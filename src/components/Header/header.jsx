@@ -15,8 +15,8 @@ const Header = (props) => {
   }
 
   const navBars = ()=>(
-    <div className={style.bars}>
-      <FontAwsome name="bars" onClick={props.onOpenNav}/>
+    <div className={style.bars}  onClick={props.onOpenNav}>
+      <FontAwsome name="bars"/>
     </div>
   )
 
